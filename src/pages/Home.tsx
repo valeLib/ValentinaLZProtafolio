@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { profile } from '../content/profile';
 
-type Track = 'web' | 'xr';
+type Track = 'web' | 'vr';
 
 export default function Home() {
   const [selectedTrack, setSelectedTrack] = useState<Track>('web');
@@ -19,13 +19,13 @@ export default function Home() {
         'Performance optimization and modern build tools',
       ],
     },
-    xr: {
-      title: 'XR & Game Development',
+    vr: {
+      title: 'VR & Game Development',
       description: 'Creating immersive VR experiences and integrating Unity with web technologies.',
       highlights: [
         'Unity VR for Meta Quest',
         'WebGL integration with React',
-        'Performance optimization for XR',
+        'Performance optimization for VR',
         'C# and Unity expertise',
       ],
     },
@@ -72,15 +72,15 @@ export default function Home() {
               Web / Frontend
             </button>
             <button
-              onClick={() => setSelectedTrack('xr')}
+              onClick={() => setSelectedTrack('vr')}
               className={`px-6 py-3 rounded-lg font-medium transition-all ${
-                selectedTrack === 'xr'
+                selectedTrack === 'vr'
                   ? 'bg-primary-600 text-white shadow-lg shadow-primary-600/30'
                   : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
               }`}
-              aria-pressed={selectedTrack === 'xr'}
+              aria-pressed={selectedTrack === 'vr'}
             >
-              Game / XR
+              Game / VR
             </button>
           </div>
 

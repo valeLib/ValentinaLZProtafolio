@@ -10,7 +10,7 @@ export const projects: Project[] = [
     outcome: 'Delivered a production-ready platform currently being used by researchers to conduct studies with diverse participant groups. The design system provides a foundation for consistent, accessible component development.',
     technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
     category: 'web',
-    image: '/SimpleProtafolio/projects/neurospeech.png',
+    image: '/ValentinaLZProtafolio/projects/neurospeech.png',
     link: 'https://neurospeechai.com/',
   },
   {
@@ -22,7 +22,7 @@ export const projects: Project[] = [
     outcome: 'Significantly improved page load performance and developer experience. The modern stack enabled faster feature development and more responsive data visualizations.',
     technologies: ['Vue 3', 'Inertia.js', 'Vite', 'Pinia', 'PHP Laravel', 'Chart.js'],
     category: 'web',
-    image: '/SimpleProtafolio/projects/pignus-plataform.png',
+    image: '/ValentinaLZProtafolio/projects/pignus-plataform.png',
     link: 'https://www.pignus.cl/plataforma/',
   },
   {
@@ -34,7 +34,7 @@ export const projects: Project[] = [
     outcome: 'Delivered VR applications that run smoothly on Quest 2 and Quest 3 hardware. Applications are currently in use for evaluation and training purposes.',
     technologies: ['Unity', 'C#', 'Meta Quest SDK', 'VR Optimization'],
     category: 'vr',
-    image: '/SimpleProtafolio/projects/pignus-vr.png',
+    image: '/ValentinaLZProtafolio/projects/pignus-vr.png',
   },
   {
     id: 'eye-search-webgl',
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     technologies: ['React', 'TypeScript', 'Unity', 'WebGL', 'Authentication'],
     category: 'web',
     link: 'https://eye-search.co.uk/',
-    image: '/SimpleProtafolio/projects/eyesearch.png',
+    image: '/ValentinaLZProtafolio/projects/eyesearch.png',
   },
   {
     id: 'capitalizarme-platform',
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     outcome: 'Contributed to a high-performance platform handling significant daily transaction volume with fast load times and excellent performance metrics.',
     technologies: ['React', 'TypeScript', 'Next.js', 'Redux'],
     category: 'web',
-    image: '/SimpleProtafolio/projects/capitalizarme.png',
+    image: '/ValentinaLZProtafolio/projects/capitalizarme.png',
   },
   {
     id: 'pulso-escolar-dashboards',
@@ -68,6 +68,6 @@ export const projects: Project[] = [
     outcome: 'Deployed to multiple schools across Chile, helping educators access and understand student data more effectively.',
     technologies: ['Vue', 'Google Cloud Platform', 'Data Visualization'],
     category: 'web',
-    image: '/SimpleProtafolio/projects/radar.png',
+    image: '/ValentinaLZProtafolio/projects/radar.png',
   },
 ];
